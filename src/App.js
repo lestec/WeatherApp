@@ -7,8 +7,8 @@ const SUPPORTED_LANGUAGES = [
         "EN"
 ];
 
-function getTemp (text) {
-    return (text.match(/(\-?[0-9]+)/) || [])[1];
+function getTemp (temp) {
+    return (temp.toString().match(/(\-?[0-9]+)/) || [])[1];
 }
 
 
