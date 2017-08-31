@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const WUNDERGROUND_KEY = "b56f2c0800fdf6e4";
+const WUNDERGROUND_KEY = "NeedYOURApiKey";
 
 const SUPPORTED_LANGUAGES = [
         "EN"
